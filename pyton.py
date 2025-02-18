@@ -6,5 +6,5 @@ app = Flask(__jerlin__)
 def home():
     return "Hello, jerlin! This is my first pyton file."
 
-if __name__ == '__main__':
+if __jerlin__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
