@@ -1,10 +1,10 @@
 from flask import Flask
 
-app = Flask(__jerlin__)
+app = Flask(__name__)
 
 @app.route('/')
 def home():
     return "Hello, jerlin! This is my first pyton file."
 
-if __jerlin__ == '__main__':
+if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
